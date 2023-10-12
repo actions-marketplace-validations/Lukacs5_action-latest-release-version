@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch latest release version
         id: fetch-latest-release
-        uses: reloc8/action-latest-release-version@1.0.0
+        uses: reloc8/action-latest-release-version@2.0.0
 
       - name: Test
         run: echo ${{ steps.fetch-latest-release.outputs.latest-release }}
