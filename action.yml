@@ -1,4 +1,4 @@
-name: 'action-latest-release-version'
+name: 'action-latest-release-version2'
 description: 'Fetch the latest release version for the current repository'
 author: 'alessiovierti'
 branding:
