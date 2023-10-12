@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch latest release version
         id: fetch-latest-release
-        uses: lukacs5/action-latest-release-version2@2.0.0
+        uses: Lukacs5/action-latest-release-version@v2.0.0
 
       - name: Test
         run: echo ${{ steps.fetch-latest-release.outputs.latest-release }}
